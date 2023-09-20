@@ -1,0 +1,171 @@
+    body {
+      font-family: verdana;
+      overflow: hidden;
+      display: flex;
+      justify-content: center;
+      background-color: #c4c4bf;
+      margin-top: 0;
+    }
+
+    .container {
+      width: 575px;
+      height: 927px;
+      background-color: #797978;
+      /* text-align: start; */
+      /* padding: 0 30px; */
+      padding-left: 100px;
+      color: white;
+      font-family: verdana;
+    }
+
+    #height,
+    #weight {
+      width: 150px;
+      height: 25px;
+      margin-top: 30px;
+    }
+
+    #weight-guide {
+      margin-left: 75px;
+      margin-top: 251px;
+      line-height: 20px;
+    }
+
+    #results {
+      font-size: 35px;
+      margin-left: 90px;
+      margin-top: 20px;
+      color: rgb(241, 241, 241);
+    }
+
+    button {
+      font-size: 25px;
+      margin: 15px 0;
+      margin-left: 115px;
+      padding: 10px 16px;
+      font-size: 18px;
+      border-radius: 8px;
+      border: 1px white;
+      cursor: pointer;
+    }
+    .reload{
+      margin-left: 8px;
+    }
+
+    button:hover {
+      background-color: gainsboro;
+    }
+
+    h1 {
+      padding-top: 25px;
+    }
+    
+    h3 {
+      padding-top: 25px;
+      height: 4px;
+    }
+
+    #results {
+      font-size: 20px;
+      color: yellow;
+      margin: 30px 117px;
+    }
+
+    #weight-guide {
+      display: inline;
+      margin: 90px 117px;
+    }
+
+    /* Styles for screens smaller than 576px -----------------------*/
+    @media (max-width: 576px) {
+
+      /* CSS rules for smaller screens */
+      body {
+        background-color: #797978;
+      }
+
+      .container {
+        width: 93vw;
+        height: 205vw;
+        padding-left: 20px;
+        font-size: 16px;
+        background-color: #797978;
+        color: white;
+      }
+
+      #height,
+      #weight {
+        width: 150px;
+      }
+
+      #weight-guide {
+        margin: 20px 6px;
+      }
+
+      button {
+        font-size: 25px;
+        margin: 15px 0;
+        padding: 10px 16px;
+        font-size: 18px;
+        border-radius: 8px;
+        border: 1px white;
+        cursor: pointer;
+      }
+
+      #results {
+        font-size: 14px;
+        color: yellow;
+        margin: 30px 6px;
+      }
+      h3{
+        height: 4px;
+      }
+    }
+
+    /* Styles for screens between 576px and 768px ----------------------*/
+    @media (min-width: 576px) and (max-width: 768px) {
+
+      /* CSS rules for medium-sized screens */
+      body {
+        background-color: #797978;
+      }
+
+      .container {
+        width: 575px;
+        height: 825px;
+        font-size: 18px;
+        background-color: #797978;
+        padding-left: 30px;
+        color: white;
+        display: flex;
+        margin: 0 76px;
+      }
+
+      #weight-guide {
+        margin: 30px 6px;
+      }
+
+      button {
+        font-size: 25px;
+        margin: 15px 0;
+        padding: 10px 16px;
+        font-size: 18px;
+        border-radius: 8px;
+        border: 1px white;
+        cursor: pointer;
+      }
+
+      #results {
+        font-size: 25px;
+        color: yellow;
+        margin: 30px 6px;
+      }
+
+      h3{
+        height: 4px;
+      }
+    }
+
+    /* Styles for screens larger than 768px */
+    /* @media (min-width: 768px) {
+    } */
