@@ -14,11 +14,11 @@
 
 <h3>Features</h3>
 <ul>
-<li>Responsive layout built with CSS Flexbox</li>
+<li>Responsive layout built with CSS Flexbox & Media Queries</li>
 <li>Image slideshow background animated with JavaScript</li>
 <li>Text blocks animated on click with GSAP JavaScript library</li>
-<li>Hover effects and transitions with CSS</li>
-<li>Mobile menu toggle functionality<br/></li>
+<li>Hover effects and transitions with <a href="https://www.npmjs.com/package/sheryjs#license" target="_blank">SheryJS</a></li>
+<li>persisted image changing on click<br/></li>
 </ul>
 
 <h3>Setup</h3>
