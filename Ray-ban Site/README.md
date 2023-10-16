@@ -17,7 +17,7 @@
 <li>Responsive layout built with CSS Flexbox & Media Queries</li>
 <li>Image slideshow background animated with JavaScript</li>
 <li>Text blocks animated on click with GSAP JavaScript library</li>
-<li>Hover effects and transitions with <a href="https://www.npmjs.com/package/sheryjs#license" target="_blank">SheryJS</a></li>
+<li>Hover effects and transitions with <a href="https://www.npmjs.com/package/sheryjs#license" target="_blank">Shery JS</a></li>
 <li>persisted image changing on click<br/></li>
 </ul>
 
@@ -37,7 +37,7 @@ The site is fully responsive and works on mobile, tablet and desktop screen size
 <h3>Dependencies</h3>
 <ul>
 <li><a href="https://gsap.com/" target="_blank">GSAP</a> for animations</li>
-<li><a href="https://www.npmjs.com/package/sheryjs#license" target="_blank">SheryJS</a> for image effects</li>
+<li><a href="https://www.npmjs.com/package/sheryjs#license" target="_blank">Shery JS</a> for image effects</li>
 <li>Fonts loaded from /fonts folder</li>
 </ul><br/>
   
