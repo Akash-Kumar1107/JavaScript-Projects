@@ -8,7 +8,8 @@
 <li>index.html - Main HTML document</li>
 <li>style.css - CSS stylesheet for styling</li>
 <li>script.js - JavaScript for interactions</li>
-<li>assets/ - Folder containing image assets</li>
+<li>assets - Folder containing image assets</li>
+<li>kajiro - Containing font file of type 'kajiro'</li>
 </ul>
 
 <h3>Features</h3>
@@ -42,7 +43,7 @@ The site is fully responsive and works on mobile, tablet and desktop screen size
   
 <h3>Credits</h3>
 <ul>
-<li>Product images are in assets, you can also download from <a href="https://india.ray-ban.com/" target="_blank">Ray-ban</a> site</li>
-<li>Icons also in assets & from <a href="https://india.ray-ban.com/" target="_blank">Ray-ban</a> site</li>
+<li>Product images are in assets, you can also download from <a href="https://india.ray-ban.com/" target="_blank">ray-ban</a> site</li>
+<li>Icons also in assets & from <a href="https://india.ray-ban.com/" target="_blank">ray-ban</a> site</li>
 <li>Kajiro font downloaded from <a href='https://ifonts.xyz/kajiro-font-family.html' target="_blank">ifonts.xyz</a></li>
 </ul>
