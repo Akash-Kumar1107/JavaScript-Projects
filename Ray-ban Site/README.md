@@ -1,4 +1,4 @@
-<h2>RayBan Website</h2>
+<h2>RayBan Website Landing Page</h2>
 <p>This is the code for a responsive RayBan website demo. It contains HTML, CSS, JavaScript and image assets.</p>
 
 <h3>Contents</h3>
