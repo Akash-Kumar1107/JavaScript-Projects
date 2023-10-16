@@ -1,7 +1,7 @@
 <h2>RayBan Website Landing Page</h2>
 <p>This is the code for a responsive RayBan website demo. It contains HTML, CSS, JavaScript and image assets.</p>
 
-<p>live demo: <a href="https://rayban-landing-page.netlify.app/">Rayban-Site-demo</a></p>
+<p>live demo : <a href="https://rayban-landing-page.netlify.app/">Rayban-Site-demo</a></p>
 
 <h3>Contents</h3>
 <ul>
@@ -20,7 +20,7 @@
 <li>Mobile menu toggle functionality<br/></li>
 </ul>
 
-<h5>Setup</h5>
+<h3>Setup</h3>
 To run this code, simply open the index.html file in a browser. All assets are linked locally so no web server is required.<br/><br/>
 
 The site is fully responsive and works on mobile, tablet and desktop screen sizes.<br/>
@@ -35,14 +35,14 @@ The site is fully responsive and works on mobile, tablet and desktop screen size
 
 <h3>Dependencies</h3>
 <ul>
-<li><a href="https://gsap.com/">GSAP</a>for animations</li>
-<li><a href="https://www.npmjs.com/package/sheryjs#license">SheryJS</a>for image effects</li>
+<li><a href="https://gsap.com/">GSAP</a> for animations</li>
+<li><a href="https://www.npmjs.com/package/sheryjs#license">SheryJS</a> for image effects</li>
 <li>Fonts loaded from /fonts folder</li>
 </ul><br/>
   
 <h3>Credits</h3>
 <ul>
-<li>Product images are in assets</li>
-<li>Icons also in assets</li>
+<li>Product images are in assets, you can also download from <a href="https://india.ray-ban.com/">Ray-ban</a> site</li>
+<li>Icons also in assets & from <a href="https://india.ray-ban.com/">Ray-ban</a> site</li>
 <li>Kajiro font downloaded from <a href='https://ifonts.xyz/kajiro-font-family.html'>ifonts.xyz</a></li>
 </ul>
