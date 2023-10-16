@@ -1,0 +1,199 @@
+@font-face {
+    font-family: 'kajiro';
+    src: url('kajiro/Kajiro\ Bold.ttf') format('truetype');
+  }
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    overflow-y: hidden;
+}
+#back{
+    width: 100%;
+    height: 100vh;
+}
+
+#back img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#top {
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+}
+#workingarea{
+    position: relative;
+    margin: 0 11vw;      
+    width: 80%;
+    height: 100vh;
+    max-width: 1600px;
+}
+#nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 40px 0;
+}
+#nav img {
+    height: 60px;
+}
+
+#nleft, #nright {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+#nav a {
+    pointer-events: all;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+    color: #fff;
+}
+#nav a:hover{
+    color: yellow;
+}
+
+#hero {
+    position: absolute;
+    top: 53%;            
+    left: 0;
+    transform: translate(0%, -50%);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#heroleft {
+    min-width: 50%;
+}
+
+#heroleft .elem {
+    position: relative;
+    height: 8vw;
+    overflow: hidden;
+}
+
+#heroleft .elem h1:nth-child(1){
+    top: 0;
+}
+
+#heroleft .elem h1 {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    line-height: .9;
+    font-family: 'kajiro';
+    color: #fff;
+    font-weight: 100;
+    font-size: 9.2vw;    
+} 
+
+#heroleft button {
+    pointer-events: all;
+    padding: .8vw 2.8vw;
+    font-size: 2.6vw;
+    font-family: 'kajiro';
+    margin-top: 2vw;
+    cursor: pointer;
+}
+
+#heroright {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    width: 17%;
+    color: white; 
+}
+
+#heroright p {
+    font-size: 14px;
+    font-weight: 300;
+    text-align: right;
+}
+
+#heroright #imagediv{
+    width: 90%;
+    height: 130px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    background-image: url(assets/Img-div1.jpeg);
+    background-size: cover;
+    background-position: center;
+} 
+
+#heroright p:nth-child(3){
+    margin-bottom: 60px;
+}
+
+
+/*------ styles for small screens ----------*/
+@media (max-width: 768px) {
+    #nav img {
+        height: 7vh;
+    }
+    /* #nleft img {
+        height: 1vh;
+    } */
+    body{
+        overflow-y: hidden;
+    }
+    #main{
+        position: relative; /*Important as it reduce x-y space*/
+    }
+    #nav a{
+        display: flex;
+        justify-content: space-between;
+        font-size: 1.4vw;
+        margin: -1rem;
+    }
+    #workingarea {
+        width: 86%;
+        margin: 0 7vw;
+    }
+    #hero {
+        position: absolute;
+        top: 73%;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        font-size: 6rem;
+    }
+    #heroleft .elem {
+        position: relative;
+        height: 12vw;
+    }
+    #heroleft .elem h1{
+        font-size: 12vw;
+    }
+    #heroright {
+        width: 20%;
+    }
+    #heroright p {
+        font-size: 1.3vw;
+    }
+    #heroright #imagediv{
+        height: 12vw;
+        width: 93%;
+        opacity: 90%;
+    }
+  }
+  
+  
