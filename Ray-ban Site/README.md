@@ -42,5 +42,5 @@ The site is fully responsive and works on mobile, tablet and desktop screen size
 <ul>
 <li>Product images are in assets</li>
 <li>Icons also in assets</li>
-<li>Kajiro font downloaded from <a src='https://ifonts.xyz/kajiro-font-family.html'>ifonts.xyz</a></li>
+<li>Kajiro font downloaded from <a href='https://ifonts.xyz/kajiro-font-family.html'>ifonts.xyz</a></li>
 </ul>
