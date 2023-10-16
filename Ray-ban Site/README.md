@@ -1,8 +1,8 @@
 <h2>RayBan Website Landing Page</h2>
 <p>This is the code for a responsive RayBan website demo. It contains HTML, CSS, JavaScript and image assets.</p>
 
-<h5>Demo<br/>
-<p>A live demo is hosted here: <a href="https://rayban-landing-page.netlify.app/"></a></p></h5>
+<h3>Demo</h5><br><br>
+<p>A live demo is hosted here: <a href="https://rayban-landing-page.netlify.app/">Rayban-Site</a></p>
 
 <h3>Contents</h3>
 <ul>
