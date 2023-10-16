@@ -9,7 +9,7 @@
 <li>assets/ - Folder containing image assets</li>
 </ul><br/>
 
-<h3>Features</h3><br/>
+<h3>Features</h3>
 <ul>
 <li>Responsive layout built with CSS Flexbox</li>
 <li>Image slideshow background animated with JavaScript</li>
@@ -31,16 +31,16 @@ The site is fully responsive and works on mobile, tablet and desktop screen size
 <li>Replace image assets in assets/ folder</li>
 </ul><br/>
 
-<h3>Dependencies</h3><br/>
+<h3>Dependencies</h3>
 <ul>
 <li>GSAP for animations</li>
 <li>SheryJS for image effects</li>
 <li>Fonts loaded from /fonts folder</li>
 </ul><br/>
   
-<h3>Credits</h3><br>
+<h3>Credits</h3>
 <ul>
-<li>Product images from RayBan.com</li>
-<li>Icons from IconFinder</li>
-<li>Kajiro font downloaded from FontSpace</li>
+<li>Product images are in assets</li>
+<li>Icons also in assets</li>
+<li>Kajiro font downloaded from <a src='https://ifonts.xyz/kajiro-font-family.html'>ifonts.xyz</a></li>
 </ul>
