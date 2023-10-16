@@ -1,8 +1,7 @@
 <h2>RayBan Website Landing Page</h2>
 <p>This is the code for a responsive RayBan website demo. It contains HTML, CSS, JavaScript and image assets.</p>
 
-<h3>Demo</h5><br><br>
-<p>A live demo is hosted here: <a href="https://rayban-landing-page.netlify.app/">Rayban-Site</a></p>
+<p>live demo: <a href="https://rayban-landing-page.netlify.app/">Rayban-Site-demo</a></p>
 
 <h3>Contents</h3>
 <ul>
@@ -36,8 +35,8 @@ The site is fully responsive and works on mobile, tablet and desktop screen size
 
 <h3>Dependencies</h3>
 <ul>
-<li><a href="https://gsap.com/">GSAP for animations</a></li>
-<li><a href="https://www.npmjs.com/package/sheryjs#license">SheryJS for image effects</a></li>
+<li><a href="https://gsap.com/">GSAP</a>for animations</li>
+<li><a href="https://www.npmjs.com/package/sheryjs#license">SheryJS</a>for image effects</li>
 <li>Fonts loaded from /fonts folder</li>
 </ul><br/>
   
