@@ -1,5 +1,5 @@
 <h2>RayBan Website Landing Page</h2>
-<p>This project implements a modern, responsive landing page website demonstration with HTML structure, CSS styling, JavaScript interactivity, and image assets.</p>
+<p>This project implements a modern, responsive landing page website demonstration<br> with HTML structure, CSS styling, JavaScript interactivity, and image assets.</p>
 
 <p>live demo : <a target="_blank" href="https://rayban-landing-page.netlify.app/" >Rayban-Site-demo</a></p>
 
