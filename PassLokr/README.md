@@ -33,7 +33,7 @@
 
 <h2>Credits</h2>
 
-<p>PassLokr was created by [your name] as a practice project to learn web development.</p>
+<p>PassLokr was created by Akash Kumar as a practice project to learn web development.</p>
 
 <p>The copy icon is from [icon source].</p>
 
