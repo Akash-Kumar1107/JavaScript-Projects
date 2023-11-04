@@ -12,7 +12,7 @@
 <h2>Usage</h2>
 <p>The app has a search input field where users can type in a city name, like "London" or "Tokyo". Hitting search or
   pressing Enter will fetch the weather data for that city from the <a
-    href="https://openweathermap.org/api" style="text-decoration:none;">OpenWeatherMap API</a>.</p>
+    href="https://openweathermap.org/api">OpenWeatherMap API</a>.</p>
 <p>Alternatively, clicking the "Use Current Location" button will get the user's coordinates via the browser's
   geolocation API and show weather for their current city.</p>
 <p>The current weather is shown prominently, with a heading for the city name and today's date. Below this is a 5-day
@@ -30,7 +30,7 @@
 <h2>Built With</h2>
 <ul>
   <li>HTML, CSS, JavaScript</li>
-  <li><a href="https://openweathermap.org/api" style="text-decoration:none;">OpenWeatherMap API</a> for weather data</li>
+  <li><a href="https://openweathermap.org/api">OpenWeatherMap API</a> for weather data</li>
   <li>Local dev server and build process with Parcel</li>
 </ul>
 <h2>Author</h2>
