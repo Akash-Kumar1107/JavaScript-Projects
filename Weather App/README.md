@@ -7,7 +7,7 @@
   <li>Uses user's current location to show weather for their city</li>
   <li>Displays weather icons, temperature, wind speed and humidity</li>
   <li>Clean and responsive UI</li>
-  <li>It's responsive on all devices</li>
+  <li>It's responsive on all devices!</li>
 </ul>
 <h2>Usage</h2>
 <p>The app has a search input field where users can type in a city name, like "London" or "Tokyo". Hitting search or
