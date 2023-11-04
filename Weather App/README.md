@@ -34,6 +34,6 @@
   <li>Local dev server and build process with Parcel</li>
 </ul>
 <h2>Author</h2>
-<p>John Doe</p>
+<p>Akash Kumar</p>
 
 </html>
