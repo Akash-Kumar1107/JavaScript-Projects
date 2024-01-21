@@ -1,0 +1,184 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #0a61ad;
+    background-image: linear-gradient(#5797d6, #0a3968);
+}
+
+header {
+    position: relative;
+    left: 80vw;
+    bottom: 35vh;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+header select {
+    margin-right: 20px;
+    padding: 5px;
+}
+
+img {
+    position: relative;
+    bottom: 27vh;
+    left: 14vw;
+    font-size: 5vh;
+    cursor: pointer;
+}
+
+form {
+    position: relative;
+    right: 25.5vw;
+    background-color: #fff;
+    padding: 23px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #a9d6f1;
+    height: 29vh;
+    width: 30.5vw;
+}
+
+label {
+    display: block;
+    margin-bottom: 18px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    border: 0px white;
+}
+
+button {
+    background-color: #1a8dc7;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+
+button:hover {
+    background-color: #1d63b8;
+}
+
+/*---Loader---*/
+#loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f5f5f5;
+}
+
+.spinner {
+    border: 8px solid #3498db;
+    border-top: 8px solid transparent; /* Make the top border transparent to create the wheel effect */
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#loginForm {
+    display: none;
+}
+@media only screen and (max-width: 1440px) {
+    img {
+        position: absolute;  /*imp*/
+        bottom: 74vh;
+        left: 14vw;
+        font-size: 5vh;
+        cursor: pointer;
+        width: 70vw;
+    }form {
+        position: relative;
+        right: 8vw;
+        background-color: #fff;
+        padding: 23px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        background-color: #a9d6f1;
+        height: 29vh;
+        width: 56.5vw;
+        font-size: 9px;
+    }button {
+        background-color: #1a8dc7;
+        color: #fff;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 10px;
+    }header {
+        left: 62vw;
+        bottom: 35vh;
+        display: flex;
+        justify-content: flex-end;
+        padding: 10px;
+        position: relative;
+}
+}
+
+@media only screen and (max-width: 426px) {
+    body{
+        background-image: none;
+    }
+    img {
+        position: absolute;  /*imp*/
+        bottom: 74vh;
+        left: 14vw;
+        font-size: 5vh;
+        cursor: pointer;
+        width: 70vw;
+    }form {
+        position: relative;
+        right: 15vw;
+        background-color: #fff;
+        padding: 23px;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        background-color: #a9d6f1;
+        height: 29vh;
+        width: 56.5vw;
+        font-size: 5px;
+    }button {
+        background-color: #1a8dc7;
+        color: #fff;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 10px;
+    }header {
+        left: 68vw;
+        bottom: 35vh;
+        display: flex;
+        justify-content: flex-end;
+        padding: 10px;
+        position: relative;
+}
+}

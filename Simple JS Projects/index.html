@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <select id="languageSelector" onchange="changeLanguage()">
+            <option value="english">English</option>
+            <option value="hindi">हिन्दी</option>
+            <option value="spanish">Spanish</option>
+            <option value="russian">Русский</option>
+            <option value="italian">Italiano</option>
+            <option value="french">Français</option>
+            <option value="portuguese">Português</option>
+            <option value="chinese">中文</option>
+            <option value="urdu">اردو</option>
+            <option value="polish">Polski</option>
+            <option value="dutch">Nederlands</option>
+            <option value="korean">한국어</option>
+            <option value="japanese">日本語</option>
+            <!-- Add more language options as needed -->
+        </select>
+    </header>
+    
+
+    <div id="loader">
+        <div class="spinner"></div>
+    </div>
+
+    <img src="header_logo.png" alt="">
+    <form id="loginForm">
+        <label for="username" style="font-size: 15px;">Please enter your administrator login and password</label>
+        <input type="text" id="username" name="username" required placeholder="Username" value="guest">
+        <input type="password" id="password" name="password" required placeholder="Password">
+        <button type="button" onclick="validateForm()">Sign In</button>
+    </form>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
